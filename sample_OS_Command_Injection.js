@@ -8,6 +8,7 @@ public static void listFiles(String dir) throws Exception {
   InputStream in = (result == 0) ? proc.getInputStream() :
                                    proc.getErrorStream();
   int c;
+  #ww
   while ((c = in.read()) != -1) {
     System.out.print((char) c);
   }
