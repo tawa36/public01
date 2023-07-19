@@ -14,4 +14,3 @@ public static void listFiles(String dir) throws Exception {
     System.out.print((char) c);
   }
 }
-TEST
